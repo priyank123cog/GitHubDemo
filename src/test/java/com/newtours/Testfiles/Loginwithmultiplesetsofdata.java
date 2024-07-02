@@ -68,7 +68,8 @@ public class Loginwithmultiplesetsofdata {
 		Lpage.signofflink();
 		
 		Actions actions=new Actions(driver);
-				
+		
+			actions.contextClick().build().perform();	
 	}
 	
 	
